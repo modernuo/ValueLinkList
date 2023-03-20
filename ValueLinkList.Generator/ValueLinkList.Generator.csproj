@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <Authors>Kamron Batman</Authors>
+        <PackageId>ModernUO.ValueLinkList.Generator</PackageId>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Platforms>x64;arm64</Platforms>
+        <LangVersion>preview</LangVersion>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <PackageVersion>1.0.0</PackageVersion>
+        <AssemblyName>ModernUO.ValueLinkList.Generator</AssemblyName>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <RootNamespace>ModernUO.ValueLinkList.Generator</RootNamespace>
+        <Copyright>Copyright 2023</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <PackageProjectUrl>https://github.com/modernuo/ValueLinkList</PackageProjectUrl>
+        <Description>ValueLinkList source generator</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4" PrivateAssets="all" />
+        <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.5.0" PrivateAssets="all" />
+
+        <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+    </ItemGroup>
+</Project>
