@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueLinkList.Generator", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueLinkList.Annotations", "ValueLinkList.Annotations\ValueLinkList.Annotations.csproj", "{F5BDC026-1FC1-421D-A97C-850EF07101F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueLinkList.Generator.Tests", "ValueLinkList.Generator.Tests\ValueLinkList.Generator.Tests.csproj", "{2B698D9F-7B3D-4AE4-B2F2-B166D1E291C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F5BDC026-1FC1-421D-A97C-850EF07101F2}.Debug|Any CPU.Build.0 = Debug|x64
 		{F5BDC026-1FC1-421D-A97C-850EF07101F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5BDC026-1FC1-421D-A97C-850EF07101F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B698D9F-7B3D-4AE4-B2F2-B166D1E291C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B698D9F-7B3D-4AE4-B2F2-B166D1E291C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B698D9F-7B3D-4AE4-B2F2-B166D1E291C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B698D9F-7B3D-4AE4-B2F2-B166D1E291C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
